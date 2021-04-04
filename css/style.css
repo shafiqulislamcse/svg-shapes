@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+.wave{
+	position: absolute;
+	bottom: 0;
+}
+.wave_up{
+	transform: rotate(180deg);
+}
+.calltoaction{
+	height: 100vh;
+	background-color: #0099FF;
+}
+.calltoaction .content{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.calltoaction .content h1{}
+.calltoaction .content p{}
+.calltoaction .content a{}
+.calltoaction .content a:hover{}
